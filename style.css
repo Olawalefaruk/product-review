@@ -20,7 +20,7 @@ body {
 }
 
 .image-box img {
-  max-width: 220px;
+  width: 220px;
   border-radius: 8px 0 0 8px;
 }
 
