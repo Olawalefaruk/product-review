@@ -20,7 +20,7 @@ body {
 }
 
 .image-box img {
-  width: 220px;
+  width: 221px;
   border-radius: 8px 0 0 8px;
 }
 
@@ -28,7 +28,7 @@ body {
   display: flex;
   flex-direction: column;
   background: white;
-  max-width: 220px;
+  max-width: 240px;
   min-height: auto;
   border-radius: 0 8px 8px 0;
   
@@ -38,7 +38,7 @@ div h1 {
   font-family: Arial;
   font-size: 10px;
   letter-spacing: 5px;
-  padding: 20px 0px 14px 20px;
+  padding: 20px 0px 15px 20px;
   color: rgb(202, 195, 195);
 }
 div h2 {
@@ -58,7 +58,7 @@ div p {
 }
 
 div h3 {
-  padding: 1px 20px;
+  padding: 2px 20px;
   color: rgb(68, 109, 68);
   font-size: 23px;
   word-spacing: 10px;
