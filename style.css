@@ -139,8 +139,9 @@ div h1, h2, h3, p {
       width: 200px;
     }
 
-    .minor {
-      height: 60vh;
-    }
 
+    .image-box img {
+      width: 240px;
+      border-radius: 8px 8px 0 0;
+    }
 }
