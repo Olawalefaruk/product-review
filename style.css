@@ -1,0 +1,146 @@
+
+body {
+  margin: 0;
+}
+.background {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  width: 100%;
+  min-height: 100vh;
+  background-color: rgb(243, 235, 235);
+  border: 0;
+  
+}
+
+.image-box {
+  display: flex;
+  align-items: center;
+  
+}
+
+.image-box img {
+  max-width: 220px;
+  border-radius: 8px 0 0 8px;
+}
+
+.text-box {
+  display: flex;
+  flex-direction: column;
+  background: white;
+  max-width: 220px;
+  min-height: auto;
+  border-radius: 0 8px 8px 0;
+  
+}
+
+div h1 {
+  font-family: Arial;
+  font-size: 10px;
+  letter-spacing: 5px;
+  padding: 20px 0px 14px 20px;
+  color: rgb(202, 195, 195);
+}
+div h2 {
+  padding: 0px 0px 20px 20px;
+  font-size: 25px;
+  line-height: 25px;
+  max-width: 150px;
+}
+
+div p {
+  max-width: 170px;
+  font-family: Arial;
+  color: rgb(202, 195, 195);
+  padding: 0px 20px 15px;
+  line-height: 17px;
+  font-size: 12px;
+}
+
+div h3 {
+  padding: 1px 20px;
+  color: rgb(68, 109, 68);
+  font-size: 23px;
+  word-spacing: 10px;
+}
+
+div span {
+  font-size: 12px;
+  text-decoration: line-through;
+  color: rgb(202, 195, 195);
+}
+
+button {
+  display: flex;
+  margin: 20px;
+  height: 38px;
+  background-color: rgb(68, 109, 68);
+  border: none;
+  width: 170px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  color: white;
+  align-items: center;
+  font-size: 10px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+button:active {
+  background-color: rgb(6, 52, 6);
+}
+
+.text-box button img {
+  height: 12px;
+  margin-right: 8px;
+}
+
+div h1, h2, h3, p {
+  margin: 0;
+}
+
+@media (max-width: 481px) {
+  .background {
+    flex-direction: column;
+  }
+
+  .text-box {
+      display: flex;
+      flex-direction: column;
+      background: white;
+      max-width: 240px;
+      min-height: auto;
+      border-radius: 0 0 8px 8px;
+    }
+    div h1 {
+      font-size: 12px;
+      padding: 15px 0px 11px 20px;
+      
+    }
+    div h2 {
+      padding: 0px 0px 14px 20px;
+      font-size: 23px;
+      line-height: 25px;
+      max-width: 200px;
+    }
+    div p {
+      max-width: 200px;
+      font-family: Arial;
+      color: rgb(202, 195, 195);
+      padding: 0px 20px 10px;
+      line-height: 14px;
+      font-size: 12px;
+    }   
+    button {
+      margin: 10px 20px;
+      border: none;
+      width: 200px;
+    }
+
+    .minor {
+      height: 60vh;
+    }
+
+}
